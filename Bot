@@ -1,0 +1,14 @@
+
+‏const mineflayer = require('mineflayer')
+
+‏const bot = mineflayer.createBot({
+‏  host: 'your-server-address', //lar0e9.aternos.me
+‏  port25240:, //
+‏  username: 'your-username', //wafe 
+
+‏bot.once('spawn', () => {
+‏  console.log('Bot has spawned in the server')
+})
+
+‏bot.on('error', err => console.log(err))
+‏bot.on('end', () => console.log('Bot has disconnected'))
